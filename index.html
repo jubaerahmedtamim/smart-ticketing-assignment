@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <header class="mx-36 auto">
+    <header class="mx-2 auto lg:mx-36 lg:auto">
         <!-- nav  -->
         <nav>
             <div class="navbar bg-base-100">
@@ -67,7 +67,7 @@
         </nav>
         <!-- banner -->
         <section class="mt-8 mb-28">
-            <div class="hero min-h-[550px] rounded-3xl bg-cover " style="background-image: url(./images/banner.png);">
+            <div class="hero min-h-max lg:min-h-[550px] rounded-3xl bg-cover " style="background-image: url(./images/banner.png);">
                 <div class="hero-overlay bg-opacity-10 rounded-3xl"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="">
@@ -81,9 +81,9 @@
             </div>
         </section>
         <!-- offer section -->
-        <section class="mx-36 auto mb-32">
+        <section class="lg:mx-36 lg:auto mb-32">
             <h2 class="text-4xl font-bold text-center ">Best offers for you</h2>
-            <div class=" flex justify-center items-center gap-6 mt-12 mb-16">
+            <div class=" flex flex-col lg:flex-row justify-center items-center gap-6 mt-12 mb-16">
                 <div class="flex justify-around items-center bg-[#FFBF0F] p-12 rounded-3xl w-full ">
                     <div>
                         <h2 class="font-extrabold text-4xl ">15% OFF</h2>
@@ -116,19 +116,19 @@
             </div>
         </section>
     </header>
-    <main class="bg-[#F7F8F8]">
+    <main class="bg-[#F7F8F8] ">
         <div class="text-center pt-32 pb-12">
             <h1 class="font-bold text-5xl">P.H Paribahan</h1>
             <p>Yes, you can run unit tests and view the results directly within the app. The integrated testing <br>
                 features
                 allow for a streamlined .</p>
         </div>
-        <section class="mx-36 auto pb-7">
-            <div class="flex justify-around items-center  bg-[#FFFFFF]  p-12 rounded-3xl w-full ">
+        <section class="mx-2 lg:mx-36 auto pb-7">
+            <div class="lg:flex justify-around items-center  bg-[#FFFFFF] p-4 lg:p-12 rounded-3xl w-full ">
                 <div class="flex-1">
-                    <div class="flex">
+                    <div class="lg:flex">
                         <div class="flex gap-3 flex-1">
-                            <img src="./images/bus-logo.png" alt="">
+                            <img class="mb-2" src="./images/bus-logo.png" alt="">
                             <div>
                                 <h2 class="font-bold text-3xl ">Greenline Paribahan</h2>
                                 <p class="text-[#03071280]">Coach-009-WEB ! AC_Business</p>
@@ -143,7 +143,7 @@
                         </div>
                     </div>
                     <!-- route & departure time -->
-                    <div class="bg-[#F7F8F8] p-8 mt-4 rounded-lg">
+                    <div class="bg-[#F7F8F8] p-1 lg:p-8 mt-4 rounded-lg">
                         <div>
                             <div class="flex justify-between border-b-2 border-dashed pb-4">
                                 <p class="font-semibold text-lg text-[#03071299]">Route</p>
@@ -155,7 +155,7 @@
                             </div>
                         </div>
                         <!-- other routes -->
-                        <div class="flex gap-4 justify-around mt-3 ">
+                        <div class="flex gap-1 lg:gap-4 justify-around mt-3 ">
                             <div class="bg-[#0307120D] w-full text-center p-4 rounded-lg">
                                 <p class="text-lg font-medium">Boarding Point - Laxmipur</p>
                             </div>
@@ -169,16 +169,16 @@
                     </div>
                 </div>
                 <div class="divider divider-horizontal"></div>
-                <div class="flex flex-col justify-center items-center w-80">
+                <div class="flex flex-col justify-center items-center lg:w-80">
                     <img src="./images/fare.png" alt="">
                     <h3 class="font-bold text-3xl">550 taka</h3>
                     <p class="text-[#03071280] text-xl font-medium ">per Seat</p>
                 </div>
             </div>
         </section>
-        <section class="mx-36 auto bg-[#FFFFFF]  p-12 rounded-3xl">
-            <div class="flex gap-10">
-                <div class="grow">
+        <section class="lg:mx-36 auto bg-[#FFFFFF] p-2 lg:p-12 rounded-3xl">
+            <div class="lg:flex lg:gap-10">
+                <div class="lg:grow">
                     <h3 class="text-2xl font-semibold border-b-2 border-dashed pb-4">Select Your Seat</h3>
                     <div class="flex justify-between mt-5 border-b-2 border-dashed pb-4">
                         <div class="flex gap-1">
@@ -190,126 +190,126 @@
                             <span class="text-primary-color font-semibold">Selected</span>
                         </div>
                     </div>
-                    <div>
+                    <div class="p-2">
                         <div class="flex flex-row-reverse mt-8">
-                            <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">
+                            <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">
                                 <img class="w-7" src="./images/steering.png" alt="">
                             </kbd>
                         </div>
                         <div class="flex justify-between mt-8">
                             <div>
-                                <kbd class=" py-4 px-11 ">A</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">A1</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">A2</kbd>
+                                <kbd class=" py-1 px-3 lg:py-4 lg:px-11 ">A</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">A1</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">A2</kbd>
                             </div>
                             <div>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">A3</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">A4</kbd>
-                            </div>
-                        </div>
-                        <div class="flex justify-between mt-8">
-                            <div>
-                                <kbd class=" py-4 px-11 ">B</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">B1</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">B2</kbd>
-                            </div>
-                            <div>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">B3</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">B4</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">A3</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">A4</kbd>
                             </div>
                         </div>
                         <div class="flex justify-between mt-8">
                             <div>
-                                <kbd class=" py-4 px-11 ">C</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">C1</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">C2</kbd>
+                                <kbd class="py-1 px-3 lg:py-4 lg:px-11 ">B</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">B1</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">B2</kbd>
                             </div>
                             <div>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">C3</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">C4</kbd>
-                            </div>
-                        </div>
-                        <div class="flex justify-between mt-8">
-                            <div>
-                                <kbd class=" py-4 px-11 ">D</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">D1</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">D2</kbd>
-                            </div>
-                            <div>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">D3</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">D4</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">B3</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">B4</kbd>
                             </div>
                         </div>
                         <div class="flex justify-between mt-8">
                             <div>
-                                <kbd class=" py-4 px-11 ">E</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">E1</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">E2</kbd>
+                                <kbd class=" py-1 px-3 lg:py-4 lg:px-11 ">C</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">C1</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">C2</kbd>
                             </div>
                             <div>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">E3</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">E4</kbd>
-                            </div>
-                        </div>
-                        <div class="flex justify-between mt-8">
-                            <div>
-                                <kbd class=" py-4 px-11 ">F</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">F1</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">F2</kbd>
-                            </div>
-                            <div>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">F3</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">F4</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">C3</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">C4</kbd>
                             </div>
                         </div>
                         <div class="flex justify-between mt-8">
                             <div>
-                                <kbd class=" py-4 px-11 ">G</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">G1</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">G2</kbd>
+                                <kbd class=" py-1 px-3 lg:py-4 lg:px-11  ">D</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">D1</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">D2</kbd>
                             </div>
                             <div>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">G3</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">G4</kbd>
-                            </div>
-                        </div>
-                        <div class="flex justify-between mt-8">
-                            <div>
-                                <kbd class=" py-4 px-11 ">H</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">H1</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">H2</kbd>
-                            </div>
-                            <div>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">H3</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">H4</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">D3</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">D4</kbd>
                             </div>
                         </div>
                         <div class="flex justify-between mt-8">
                             <div>
-                                <kbd class=" py-4 px-11 ">I</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">I1</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">I2</kbd>
+                                <kbd class="py-1 px-3 lg:py-4 lg:px-11 ">E</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">E1</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">E2</kbd>
                             </div>
                             <div>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">I3</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">I4</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">E3</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">E4</kbd>
                             </div>
                         </div>
                         <div class="flex justify-between mt-8">
                             <div>
-                                <kbd class=" py-4 px-11 ">J</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">J1</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">J2</kbd>
+                                <kbd class="py-1 px-3 lg:py-4 lg:px-11 ">F</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">F1</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">F2</kbd>
                             </div>
                             <div>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">J3</kbd>
-                                <kbd class="bg-[#F7F8F8] py-4 px-11 rounded-lg border-2">J4</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">F3</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">F4</kbd>
+                            </div>
+                        </div>
+                        <div class="flex justify-between mt-8">
+                            <div>
+                                <kbd class="py-1 px-3 lg:py-4 lg:px-11 ">G</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">G1</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">G2</kbd>
+                            </div>
+                            <div>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">G3</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">G4</kbd>
+                            </div>
+                        </div>
+                        <div class="flex justify-between mt-8">
+                            <div>
+                                <kbd class="py-1 px-3 lg:py-4 lg:px-11  ">H</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">H1</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">H2</kbd>
+                            </div>
+                            <div>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">H3</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">H4</kbd>
+                            </div>
+                        </div>
+                        <div class="flex justify-between mt-8">
+                            <div>
+                                <kbd class="py-1 px-3 lg:py-4 lg:px-11 ">I</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">I1</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">I2</kbd>
+                            </div>
+                            <div>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">I3</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">I4</kbd>
+                            </div>
+                        </div>
+                        <div class="flex justify-between mt-8">
+                            <div>
+                                <kbd class="py-1 px-3 lg:py-4 lg:px-11 ">J</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">J1</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">J2</kbd>
+                            </div>
+                            <div>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">J3</kbd>
+                                <kbd class="bg-[#F7F8F8] py-1 px-3 lg:py-4 lg:px-11 rounded-lg border-2">J4</kbd>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- calculation part -->
-                <div class=" m-7">
+                <div class="lg:m-7">
                     <h3 class="text-2xl font-semibold border-b-2 border-dashed pb-4">Select Your Seat</h3>
                     <div class="overflow-x-auto">
                         <table class="table">
@@ -385,9 +385,9 @@
             </div>
         </section>
     </main>
-    <footer class="bg-[#030712]">
-        <section class="mx-36 auto pt-32 pb-12">
-            <div class="flex justify-between items-center mb-8">
+    <footer class="bg-[#030712] ">
+        <section class=" mx-2 lg:mx-36 auto py-10 lg:pt-32 lg:pb-12">
+            <div class="lg:flex justify-between items-center mb-8">
                 <div>
                     <h1 class="text-4xl font-extrabold text-white">P-Ticket</h1>
                     <p class="text-lg font-normal text-[#FFFFFFCC]">P-Ticket is a digital platform to make your daily
@@ -405,7 +405,7 @@
                 </div>
             </div>
             <div class="divide-y divide-dashed"></div>
-            <div class="flex justify-between text-white">
+            <div class="lg:flex justify-between text-white">
                 <p>@all rights reserved, P-Ticket services limited.2024</p>
                 <div class="flex flex-row gap-4">
                     <a href="">Terms & condition</a>

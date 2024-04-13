@@ -10,16 +10,16 @@
 
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                'primary-color': '#1DD100',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'primary-color': '#1DD100',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 </head>
 
 <body>
@@ -55,15 +55,64 @@
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="flex gap-1 font-bold text-primary-color px-8 py-4 rounded-xl border border-[#1DD10066] bg-[#1DD10019]" href="">
+                    <a class="flex gap-1 font-bold text-primary-color px-8 py-4 rounded-xl border border-[#1DD10066] bg-[#1DD10019]"
+                        href="">
                         <span class="">Bus</span>
                         <img src="./images/bus-icon.png" alt="">
                     </a>
                 </div>
             </div>
         </nav>
+        <!-- banner -->
+        <section class="mt-8 mb-28">
+            <div class="hero min-h-[550px] rounded-3xl bg-cover " style="background-image: url(./images/banner.png);">
+                <div class="hero-overlay bg-opacity-10 rounded-3xl"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="">
+                        <h1 class="mb-5 text-5xl font-bold">End-to-End Travel with <br> <span
+                                class="text-primary-color">P Paribahan</span></h1>
+                        <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The
+                            integrated testing features allow for a streamlined .</p>
+                        <button class="btn bg-primary-color border-0 font-bold text-xl">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
-    <main></main>
+    <main>
+        <section class="mx-36 auto mb-32">
+            <h2 class="text-4xl font-bold text-center ">Best offers for you</h2>
+            <div class=" flex justify-center items-center gap-6 mt-12 mb-16">
+                <div class="flex justify-around items-center bg-[#FFBF0F] p-12 rounded-3xl w-full ">
+                    <div>
+                        <h2 class="font-extrabold text-4xl ">15% OFF</h2>
+                        <p class="font-semibold text-xl">On your Next purchase</p>
+                        <p class="text-[#03071280]">use by January 2024</p>
+                    </div>
+                    <div class="divider divider-horizontal"></div>
+                    <div>
+                        <h3 class="font-bold text-3xl">NEW15</h3>
+                        <p class="text-[#03071280] text-xl font-medium ">Coupon Code</p>
+                    </div>
+                </div>
+                <div class="flex justify-around items-center bg-[#F78C9C] p-12 rounded-3xl w-full ">
+                    <div>
+                        <h2 class="font-extrabold text-4xl ">20% OFF</h2>
+                        <p class="font-semibold text-xl">On your Next purchase</p>
+                        <p class="text-[#03071280]">use by January 2024</p>
+                    </div>
+                    <div class="divider divider-horizontal"></div>
+                    <div>
+                        <h3 class="font-bold text-3xl">Couple 20</h3>
+                        <p class="text-[#03071280] text-xl font-medium ">Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="text-primary-color font-bold text-xl px-5 py-7 rounded-xl border border-[#1DD10066] text-center">See All Offers</button>
+            </div>
+        </section>
+    </main>
     <footer></footer>
     <script src="./styles/style.css"></script>
 </body>

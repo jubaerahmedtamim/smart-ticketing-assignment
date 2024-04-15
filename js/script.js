@@ -28,11 +28,6 @@ function updateSelectedCount() {
     // Get all selected seats
     const selectedSeats = document.querySelectorAll('.bus-seat.bg-primary-color')
 
-    const seatsIndex = [...selectedSeats].map(seat => [...seats].indexOf(seat))
-
-    // console.log(seatsIndex);
-
-
     const selectedSeatsCount = selectedSeats.length;
 
     const perTicketPrice = parseInt(ticketPrice.innerText);
